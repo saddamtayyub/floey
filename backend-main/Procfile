@@ -1,0 +1,2 @@
+heroku config:set DISABLE_COLLECTSTATIC=1
+web: waitress-serve --port=$PORT GYM.wsgi:application
